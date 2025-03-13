@@ -1,0 +1,26 @@
+Algorithm_02: DecodingTextfromImage
+ Input:Encodedimage(PNGorJPG),decoding
+ key
+ Output:Decodedtext
+ 1 Selecttheimage(PNGorJPG)fromthebrowser;
+ 2 Inputkeytodecodetheimage;
+ 3Get imagedimensions:w×h=image.size();
+ 4 foreachcharacterbnincipherdo
+ 5 ch←ascii(bn);
+ 6 p1,p2,p3←pix[cp],pix[cp+ps/2],pix[cp+ps/4];
+ 7 InsertECCblocks;
+ 8 fori←0tops−1do
+ 9 forj←0to7do
+ 10 cb←bv[i·8+j];
+ 11 if cb=0then
+ 12 ModifypixelvaluebasedonLSB;
+ 13 elseif cb=1then
+ 14 ModifypixelvaluebasedonLSB;
+ 15 cp←cp+3;
+ 16 tmp←tmp+1;
+ 17 RemoveECCblocks;
+ 18Removepaddingandbits;
+ 19m←decrypt.AES(c);
+
+//see in actual research paper for better view
+//mail me at mittalsoni212@gmail.com
