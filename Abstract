@@ -1,0 +1,29 @@
+**ABSTRACT:-** 
+Privacy is a necessity for security, espe
+cially in information communication technology in
+terfaces. This has been so due to the rising use of
+ technology, which has made it difficult to guarantee
+ data authenticity and credibility when passing mes
+sages. As a result, secure communication is often in
+ a state of potential jeopardy. This has been a com
+plex problem to solve, and steganography, which in
+volves hiding the identification information in cover
+ media, has been utilized to solve it. The analysis and
+ comparison of the currently existing steganographic
+ techniques presented in this paper consider problems
+ such as robustness, visibility, security, integrity, and
+ data storage. In order to overcome these challenges,
+ the present research work is aimed to develop a new
+ steganographic model that is made more robust, can
+ carry more amount of payload, and is more secure
+ from detection. Our design applied and enhanced the
+ use of cryptographic procedures and randomized salts
+ to make the data more hidden and secure from any
+ third party. In addition, we use ECC blocks with suit
+able padding to protect data during transmission and
+ exclude data loss. The proposed model offers a loss
+less solution with high security and, in the context
+ of this work, is immune to the challenges of network
+ transmission and steganalysis.
+ Keywords Steganography, LSB, Randomization,
+ Cover-image, stegolysis
