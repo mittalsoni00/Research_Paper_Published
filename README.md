@@ -15,4 +15,10 @@ This research focuses on improving **steganographic techniques** for secure comm
 
 Thanks:) 
 
+Some Glimpses of Paper: 
+![image](https://github.com/user-attachments/assets/ce45c30a-cae5-4dad-b193-2fe414df1de1)
+
+![image](https://github.com/user-attachments/assets/e187a74e-f13e-4eea-8421-75cc63260868)
+
+![image](https://github.com/user-attachments/assets/571a2fce-7e0a-4b90-9073-f09b2f532252)
 
